@@ -1,6 +1,6 @@
 {
   "name": "ics-parser",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "author": "Quentin Buathier <quentin.buathier@epitech.eu>",
   "scripts": {
     "test": "NODE_ENV=test mocha --recursive -R spec test/ -t 120000 -s 20000"
