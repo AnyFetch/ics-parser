@@ -1,6 +1,6 @@
 {
-  "name": "npm-ics",
-  "version": "0.1.0",
+  "name": "ics-parser",
+  "version": "0.1.1",
   "author": "Quentin Buathier <quentin.buathier@epitech.eu>",
   "scripts": {
     "test": "NODE_ENV=test mocha --recursive -R spec test/ -t 120000 -s 20000"
@@ -8,7 +8,7 @@
   "main": "./lib/",
   "repository": {
     "type": "git",
-    "url": "https://github.com/AnyFetch/npm-ics"
+    "url": "https://github.com/AnyFetch/ics-parser"
   },
   "devDependencies": {
     "mocha": "1.15.x",
@@ -17,7 +17,8 @@
   "keywords": [
     "anyfetch",
     "icalendar",
-    "ics"
+    "ics",
+    "parser"
   ],
   "licence": "MIT",
   "engines": {
