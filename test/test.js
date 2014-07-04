@@ -9,7 +9,7 @@ var ics = require('../lib');
 describe('Check parsing results', function() {
   it('should load 9 events', function(done) {
     fs.readFile("./test/samples/calendar.ics", function(err, data) {
-      if (err) {
+      if(err) {
         done(err);
       }
 
@@ -21,7 +21,7 @@ describe('Check parsing results', function() {
 
   it('should have good properties value', function(done) {
     fs.readFile("./test/samples/calendar.ics", function(err, data) {
-      if (err) {
+      if(err) {
         done(err);
       }
 
