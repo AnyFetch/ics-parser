@@ -27,11 +27,11 @@ describe('Check parsing results', function() {
 
       var events = ics(data.toString());
       events[0].should.have.property('type', 'VEVENT');
-      events[0].should.have.property('summary', 'Dyncon 2011');
+      events[0].should.have.property('name', 'Dyncon 2011');
       events[0].should.have.property('location', 'Stockholm, Sweden');
       events[0].should.have.property('url', 'http://lanyrd.com/2011/dyncon/');
       events[0].should.have.property('uid', 'd4c826dfb701f611416d69b4df81caf9ff80b03a');
-      events[0].should.have.property('start', new Date(2011, 2, 12, 21));
+      events[0].should.have.property('startDate', new Date(2011, 2, 12, 21));
       done();
     });
   });
