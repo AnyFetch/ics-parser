@@ -14,7 +14,7 @@ describe('Check parsing results', function() {
       }
 
       var events = ics(data.toString());
-      events.should.lengthOf(10);
+      events.should.lengthOf(9);
       done();
     });
   });
