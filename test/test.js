@@ -31,7 +31,7 @@ describe('Check parsing results', function() {
       events[0].should.have.property('location', 'Stockholm, Sweden');
       events[0].should.have.property('url', 'http://lanyrd.com/2011/dyncon/');
       events[0].should.have.property('uid', 'd4c826dfb701f611416d69b4df81caf9ff80b03a');
-      events[0].should.have.property('startDate', new Date(2011, 2, 12, 21));
+      events[0].should.have.property('startDate', new Date(Date.UTC(2011, 2, 12, 20)));
       done();
     });
   });
