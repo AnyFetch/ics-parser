@@ -14,7 +14,7 @@ describe('Check parsing results', function() {
       }
 
       var events = ics(data.toString());
-      events.should.lengthOf(9);
+      events.should.have.lengthOf(9);
       done();
     });
   });
@@ -32,6 +32,18 @@ describe('Check parsing results', function() {
       events[0].should.have.property('url', 'http://lanyrd.com/2011/dyncon/');
       events[0].should.have.property('uid', 'd4c826dfb701f611416d69b4df81caf9ff80b03a');
       events[0].should.have.property('startDate', new Date(Date.UTC(2011, 2, 12, 20)));
+      done();
+    });
+  });
+
+  it('should read long description', function(done) {
+    fs.readFile("./test/samples/longdescription.ics", function(err, data) {
+      if(err) {
+        done(err);
+      }
+
+      var event = ics(data.toString())[0];
+      event.description.should.containDeep("\n");
       done();
     });
   });

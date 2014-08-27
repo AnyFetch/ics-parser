@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+PRODID:-//Google Inc//Google Calendar 70.9054//EN
+VERSION:2.0
+CALSCALE:GREGORIAN
+METHOD:REQUEST
+BEGIN:VEVENT
+CREATED:20131108T104529Z
+DESCRIPTION:Digicode: A3402\nMetros: Temple / Art & Métiers / Filles du Cal
+ vaire\nSonnez à l'interphone "TheFamily"\n\nNe vous sentez pas obliger de p
+ asser un coup de téléphone pour confirmer le RDV / Le système fonctionne bi
+ en :)\nAffichez votre événement sur la page http://www.google.com/calendar/
+ event?action=VIEW&eid=amIwc3NxOW84YTZyc2V1OTR2ODhpNHNjODQgbWVoZGkuYm91aGVkZ
+ GlAcGFwaWVsLmZy&tok=MjAjb3Vzc2FtYUB0aGVmYW1pbHkuY29hMGRmNjg1YjIyNWM4NDkxYTY
+ 1YmQ2NDNjYzg1N2FhODkyNGVkODEz&ctz=Europe/Paris&hl=fr.
+END:VEVENT
+END:VCALENDAR
