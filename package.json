@@ -11,7 +11,7 @@
     "url": "https://github.com/AnyFetch/ics-parser"
   },
   "devDependencies": {
-    "mocha": "1.15.x",
+    "mocha": "2.0.x",
     "should": "4.x.x"
   },
   "keywords": [
